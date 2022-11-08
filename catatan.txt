@@ -1,0 +1,25 @@
+//ini buat install vendor nya lagi
+composer install --ignore-platform-reqs
+
+//ke .env, buat ganti databasenya
+DB_DATABASE=session2
+
+//setelah buat db nya di mysql
+ke terminal
+php artisan migrate:fresh --seed
+
+//kalau file templatenya didalam folder folder. maka
+Template.template
+
+//buat controller
+php artisan make:controller ProductController
+
+//file controller ada di app.htpp.controller
+
+//kalau mau pakai bootstrap
+// di sini CDN via jsDelivr
+// lalu copy
+
+
+//buat jalanin
+php artisan serve
